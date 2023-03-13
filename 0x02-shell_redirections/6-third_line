@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n '5p' iacta
+head -n 7 iacta | tail -n 1
