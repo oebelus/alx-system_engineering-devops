@@ -1,2 +1,2 @@
 #!/bin/bash
-cat list | sort | uniq -u
+tr ' ' '\n' | sort | uniq -c | grep -w '1' | cut -c9- | sort
