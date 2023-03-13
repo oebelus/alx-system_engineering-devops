@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n 7 iacta | tail -n 1
+cut -f1,3 example.txt
